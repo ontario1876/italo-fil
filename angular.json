@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "italo-fil"
+    }
+  },
+  "defaultProject": "italo-fil",
+  "cli": {
+    "analytics": false
+  }
 }
