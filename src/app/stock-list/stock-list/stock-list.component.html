@@ -1,0 +1,8 @@
+<h2>Stock List</h2>
+
+<div *ngFor="let stock of stocks">
+    <h3>{{stock.supplier}}</h3>
+    <p>{{stock.file}}</p>
+    <a href="../../../assets/Disponibilità in rocca.xls">表示</a>
+    <a href="{{stock.file}}">表示</a>
+</div>
